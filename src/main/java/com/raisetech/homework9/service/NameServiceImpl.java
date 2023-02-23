@@ -4,7 +4,9 @@ import com.raisetech.homework9.entity.Name;
 import com.raisetech.homework9.mapper.NameMapper;
 import javax.naming.NameNotFoundException;
 import java.util.List;
+import org.springframework.stereotype.Service;
 
+@Service
 public class NameServiceImpl implements com.raisetech.homework9.service.NameService {
 
   private final NameMapper nameMapper;
