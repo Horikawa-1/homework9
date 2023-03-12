@@ -13,3 +13,13 @@
 ![スクリーンショット (214)](https://user-images.githubusercontent.com/111167638/224325400-eaef0fe8-142f-47c4-a4c0-53a32de1b78d.png)
 
 ![image](https://user-images.githubusercontent.com/111167638/224325592-961ffb8c-753e-478c-8f90-6b963ec09355.png)
+
+
+【環境】
+
+
+・IntelliJ IDEA Community Edition 2022.1.2
+
+・SDK:Amazon Corretto 17
+
+・Springは↓です![スクリーンショット (165)](https://user-images.githubusercontent.com/111167638/224520259-06ab7c79-eef2-411a-803c-7d17acf0d1cd.png)
