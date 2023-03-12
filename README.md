@@ -1,5 +1,6 @@
 # 第9回の課題（MyBatisでCRUD処理のReadの実装）
 ---
+
 使うデータベースはname_managementコンテナのname_databaseデータベース内のnamesテーブルで、以下がテーブルの詳細で、ID1~ID5までのレコードがあります。
 
 ![image](https://user-images.githubusercontent.com/111167638/224326770-2f30b21f-3b38-4e7b-8f82-d55173e92593.png)
@@ -29,3 +30,7 @@
 ・SDK:Amazon Corretto 17
 
 ・Springのバージョン等は↓の通りです![スクリーンショット (165)](https://user-images.githubusercontent.com/111167638/224520259-06ab7c79-eef2-411a-803c-7d17acf0d1cd.png)
+
+* localhost:8080/namesでgetNamesメソッドより、データベースの全nameフィールドが表示される。
+* localhost:8080/names/{id}でgetNameByIdメソッドより、指定したidのnameフィールドが表示される。
+
