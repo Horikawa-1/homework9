@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
-import javax.servlet.http.HttpServletRequest;
+
 import java.time.ZonedDateTime;
 import java.util.HashMap;
 import java.util.Map;
@@ -17,7 +17,8 @@ import java.util.Map;
 public class NameNotFoundExceptionHandler extends ResponseEntityExceptionHandler {
 
   @ExceptionHandler(value = NameNotFoundException.class)
-  public ResponseEntity<Map<String, String>> handleNoNameFound(NameNotFoundException e, HttpServletRequest request) {
+  public ResponseEntity<Map<String, String>> handleNoNameFound(NameNotFoundException e,
+      HttpServletRequest request) {
 
     Map<String, String> body = new HashMap<>();
     body.put("timestamp", ZonedDateTime.now().toString());
